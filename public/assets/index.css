@@ -1,0 +1,47 @@
+@font-face {
+  font-family: lalehzar;
+  src: url("./fonts/Lalezar-Regular.ttf");
+}
+.darkTheme {
+  background-color: #262626;
+  font-family: lalehzar;
+  color: #646464;
+}
+.darkTheme nav {
+  background-color: #434343;
+}
+.darkTheme nav .navbar-brand, .darkTheme nav a, .darkTheme nav li {
+  color: #ffffff;
+}
+.darkTheme nav select {
+  background-color: #ffffff;
+}
+.darkTheme .form-group {
+  background-color: #414040;
+}
+.darkTheme .form-group .title {
+  color: #ffffff;
+  background-color: #3c3c3c;
+}
+
+.lightTheme {
+  background-color: #dcd2cf;
+  font-family: lalehzar;
+  color: #646464;
+}
+.lightTheme nav {
+  background-color: #fbfbfb;
+}
+.lightTheme nav .navbar-brand, .lightTheme nav a, .lightTheme nav li {
+  color: #262626;
+}
+.lightTheme nav select {
+  background-color: #dcd2cf;
+}
+.lightTheme .form-group {
+  background-color: #9b9898;
+}
+.lightTheme .form-group .title {
+  color: #7e7e7e;
+  background-color: #fbfbfb;
+}/*# sourceMappingURL=index.css.map */

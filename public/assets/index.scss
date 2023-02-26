@@ -1,0 +1,133 @@
+@font-face {
+  font-family: lalehzar;
+  src: url("./fonts/Lalezar-Regular.ttf");
+}
+
+.darkTheme{
+  background-color: #262626;
+  font-family: lalehzar;
+  color:#646464;
+  nav{
+    background-color: #434343;
+      .navbar-brand,a,li{
+       color: #ffffff;
+        }
+    select{
+      background-color: #ffffff;
+    }
+    .btn-list{
+      color: #ffffff;
+    }
+  }
+  .form-group{
+    background-color: #414040;
+    .title{
+      color: #ffffff;
+      background-color: #3c3c3c;
+    }
+  }
+}
+
+.lightTheme{
+  background-color: #dcd2cf;
+  font-family: lalehzar;
+  color:#646464;
+  nav{
+    background-color: #fbfbfb;
+    .navbar-brand,a,li{
+       color: #262626;
+        }
+        select{
+          background-color: #dcd2cf;
+        }
+        .btn-list{
+          color: #262626;
+        }
+  }
+  .form-group{
+    background-color: #9b9898;
+    .title{
+      color: #7e7e7e;
+      background-color: #fbfbfb;
+    }
+  }
+}
+
+
+@media only screen and (min-width:780px) {
+  .btn-list,.btn-close{
+    visibility: hidden;
+  }
+  nav{
+    height: 4rem;
+  }
+}
+@media only screen and (max-width:779px) {
+   nav{
+    transition: 1s;
+    height: 4rem;
+    .nav-item,.btn-close{
+      visibility: hidden;
+    }
+    .navbar-brand {
+     position: absolute;
+     top: 0.75rem;
+     left: 0;
+    }
+     .icon{
+      position: absolute;
+      top: 1rem;
+      left: 46%;
+     }
+     .lang-select {
+      position: absolute;
+      top: 1rem;
+      left: 50%;
+     }
+    .btn-list {
+     visibility: visible;
+     position: absolute;
+     top: 0.75rem;
+     right: 0;
+   }
+    }
+    .responsive {
+      body{
+        font-size: small;
+      }
+      nav{
+       position: relative;
+       font-size: small;
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+       height: 6rem;
+       transition: 1s;
+       .nav-item {
+         visibility: visible;
+         
+       }
+       .btn-close {
+         visibility: visible;
+         position: absolute;
+         top: 0;
+         right:0;
+        }
+        .btn-list,
+        .navbar-brand,
+        .icon,
+        .lang-select{
+         visibility: hidden;
+        }
+      }
+     
+     }         
+}
+
+    
+
+
+
+
+
+
