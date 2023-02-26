@@ -3,7 +3,8 @@
 
 # Introduction
 
-    This is a unit conversion app that includes six types of common units and support both english and persian (en-fa) languages.
+    This is a unit conversion app that includes six types of common units and 
+    support both english and persian (en-fa) languages.
 
 # Installation
 
