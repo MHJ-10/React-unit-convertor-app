@@ -100,6 +100,8 @@
        font-size: small;
        display: flex;
        flex-direction: row;
+       justify-content: space-around;
+       padding-right: 1.7rem;
        width: 100%;
        height: 6rem;
        transition: 1s;
@@ -110,8 +112,8 @@
        .btn-close {
          visibility: visible;
          position: absolute;
-         top: 0;
-         right:0;
+         top: 0.2rem;
+         right:0.2rem;
         }
         .btn-list,
         .navbar-brand,
