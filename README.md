@@ -8,7 +8,7 @@
     
  # Link
      
-    https://mhj10-react-unit-convertor.netlify.app
+   view online: https://mhj10-react-unit-convertor.netlify.app/
 
 # Installation
 
